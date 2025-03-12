@@ -619,24 +619,11 @@ Note that the network address (first) and the broadcast address (last) must be e
 <details>
   <summary>Level 9</summary>
   <br>
-  <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/level9_paint.png?raw=true" alt="level9">
+  <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/lvl_9_new.png?raw=true" alt="level9">
   <br>
   <br>
 
 This level is quite straightforward since the internet does not initially send its packets to a specific network. Therefore, the separate networks do not need to share a common address range. I would suggest simply following the 6 goals of the level one by one until the level is completed.
-<br>
-<br>
-Remember not to use the network addresses from the reserved private IP ranges.
-<br>
-<br>
-
-**1.** **Goal 3** states that we must connect _meson_ with the _internet_. The _internet_ will then have to respond to _meson_, so we enter _meson's_ network address in the _internet's_ destination.
-<br>
-<br>
-**Goal 6** states that we must connect _cation_ with the _internet_, so we enter _cation's_ network address in the _internet's_ destination.
-<br>
-<br>
-It is normal to have an empty field for the 3rd destination of the _internet_, and in _Router R1's_ destination. Not all fields of the routing tables need to be filled.
 
   <div align="right">
   <b><a href="#top">↥ back to top</a></b>
@@ -665,9 +652,8 @@ At this level, there are 4 different networks:
 
 **1.** The internet must be able to send its packets to all the hosts, so its destination must cover the range of networks of all the hosts.
 <br>
-<br>
 
-_Interface R11_ and _Interface R13_ already have an IP address entered. This IP address only differs in its last byte. _Interface R11_ has for last byte **1**, and _Interface R13_ has for last byte **254**. To cover this wide range to IP addresses, we take a mask of **/24** for the _internet's_ destination. This destination will cover a range of `70.101.30.0 - 70.101.30.255`.
+Checking the greyed-out IP addresses, we see that they all start with `160.204.103.x`. To be more flexible, let's define the internet's destination as `160.0.0.0 - 160.255.255.255` (`160.0.0.0/8`).
 
   <br>
   <br>
@@ -682,12 +668,13 @@ _Interface R11_ and _Interface R13_ already have an IP address entered. This IP 
 With the IP addresses already entered (greyed out), let's examine the ranges covered by the various networks:
 <br>
 
-1. _Router R1_ to _Switch S1_ - Covers the range **70.101.30.0 - 70.101.30.127** (mask /25).
-2. _Router R2_ to _Client H4_ - Covers the range **70.101.30.128 - 70.101.30.191** (mask /26).
-3. _Router R1_ to _Router R2_ - Covers the range **70.101.30.252 - 70.101.30.255** (mask /30).
+1. _Router R1_ to _Switch S1_ - Covers the range `160.204.103.0 - 160.204.103.127` (mask `/25`).
+2. _Router R2_ to _Client H4_ - Covers the range `160.204.103.128 - 160.204.103.191` (mask `/26`).
+3. _Router R1_ to _Router R2_ - Covers the range `160.204.103.252 - 160.204.103.255` (mask `/30`).
 4. _Router R2_ to _Client H3_ - ??? (mask ???).
 
-The only IP addresses left for the network "Router R2 to Client H3" are **70.101.30.192 - 70.101.30.251**. We can pick any mask that will let us take 2 IP addresses from that range to put in _Interface R22_ and _Interface R31_.
+For the remaining subnet "Router R2 to Client H3" we can choose any IP address covered by the internet's destination (`160.x.x.x`) and any mask.
+To keep it simple, I've opted for `160.1.1.1` (R2) and `160.1.1.2` (H3) with a generous mask of `/25`.
 
   <div align="right">
   <b><a href="#top">↥ back to top</a></b>
