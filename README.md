@@ -18,6 +18,7 @@ Updates include:
   - [Subnet mask](#subnet-mask)
   - [Switch](#switch)
   - [Router](#router)
+- [Cheat Sheet](#cheat-sheet)
 - [Levels](#levels)
 
 ---
