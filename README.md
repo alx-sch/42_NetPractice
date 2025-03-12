@@ -186,6 +186,29 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
 
 ---
 
+### Cheat Sheet
+
+The cheat sheet introduced in this [YouTube video](https://www.youtube.com/watch?v=ljS07YTEJ2I) is a helpful tool to quickly figure out the group size as well as the CIDR/subnet mask notation of a subnet:
+
+| Group Size | Subnet Mask        | CIDR   |
+|------------|--------------------|--------|
+| 256        | 255.255.255.0      | /24    |
+| 128        | 255.255.255.128    | /25    |
+| 64         | 255.255.255.192    | /26    |
+| 32         | 255.255.255.224    | /27    |
+| 16         | 255.255.255.240    | /28    |
+| 8          | 255.255.255.248    | /29    |
+| 4          | 255.255.255.252    | /30    |
+| 2          | 255.255.255.254    | /31    |
+
+
+<div align="right">
+  <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+
+---
+
 ### Switch
 
 </br>
@@ -573,10 +596,10 @@ All the receiving networks must be in this range, without overlapping each other
 Each of these networks can then be attributed one of the following IP ranges with a mask of _/28_:
 
 ```
-49.175.13.0 - 49.175.13.15
+49.175.13.0 - 49.175.13.15  | R2 - D
 49.175.13.16 - 49.175.13.31
-49.175.13.32 - 49.175.13.47
-49.175.13.48 - 49.175.13.63
+49.175.13.32 - 49.175.13.47 | R2 - C
+49.175.13.48 - 49.175.13.63 | R1 - R2
 ```
 
 Note that the network address (first) and the broadcast address (last) must be excluded from each range.
