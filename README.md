@@ -578,7 +578,7 @@ https://www.calculator.net/ip-subnet-calculator.html?cclass=any&csubnet=28&cip=9
   <br>
   <br>
 
-**1.** The hosts _Client C_ and _Client D_ will send packets to the internet, then the internet will respond by sending packets all the way back to the initial sender. To send these packets, the internet uses the destination _49.175.13.0/26_ to send the packets to the networks in the range of `49.175.13.0 - 49.175.13.63`.
+**1.** The hosts _Client C_ and _Client D_ will send packets to the internet, then the internet will respond by sending packets all the way back to the initial sender. To send these packets, the internet uses the destination _49.175.13.0/26_ to send the packets to the networks in the range of `148.175.115.0 - 148.175.115.63`.
 <br>
 <br>
 All the receiving networks must be in this range, without overlapping each other.
@@ -595,10 +595,10 @@ All the receiving networks must be in this range, without overlapping each other
 Each of these networks can then be attributed one of the following IP ranges with a mask of _/28_:
 
 ```
-49.175.13.0 - 49.175.13.15  | R2 - D
-49.175.13.16 - 49.175.13.31
-49.175.13.32 - 49.175.13.47 | R2 - C
-49.175.13.48 - 49.175.13.63 | R1 - R2
+148.175.115.0 - 148.175.115.15  | R2 - D
+148.175.115.16 - 148.175.115.31
+148.175.115.32 - 148.175.115.47 | R2 - C
+148.175.115.48 - 148.175.115.63 | R1 - R2
 ```
 
 Note that the network address (first) and the broadcast address (last) must be excluded from each range.
