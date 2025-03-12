@@ -1,7 +1,7 @@
 # NetPractice
 
 <p align="center">
-    <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/netpractice_badge.png" alt="netpractice_badge.png" />
+    <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/netpractice_badge.png" alt="netpractice_badge.png" />
 </p>
 
 This repo is forked from [https://github.com/lpaube/NetPractice](https://github.com/lpaube/NetPractice) by Louis-Philippe Aubé.  
@@ -28,7 +28,7 @@ Updates include:
 
 </br>
 <p align="center">
-  <img src="./img/tcp-ip-stack.png" height=300 width=200 alt="mask">
+  <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/tcp-ip-stack.png" height=300 width=200 alt="mask">
 </p>
 </br>
 
@@ -47,7 +47,7 @@ TCP guarantees the integrity of the data being communicated over a network. Befo
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/lpaube/NetPractice/blob/main/img/ip1.png?raw=true" height=250 alt="mask"></kbd>
+  <kbd><img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/ip1.png?raw=true" height=250 alt="mask"></kbd>
 </p>
 </br>
 
@@ -65,7 +65,7 @@ IP addresses come in 2 versions--IPv4 and IPv6:
 <br>
 
 <p align="center">
-  <kbd><img src="https://github.com/lpaube/NetPractice/blob/main/img/ip_version.png?raw=true" height=100 alt="ip_versions"></kbd>
+  <kbd><img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/ip_version.png?raw=true" height=100 alt="ip_versions"></kbd>
 </p>
 <br>
 
@@ -98,7 +98,7 @@ When a network is connected to the internet, it cannot use an IP address from th
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/lpaube/NetPractice/blob/main/img/mask1.png?raw=true" height=250 alt="mask"></kbd>
+  <kbd><img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/mask1.png?raw=true" height=250 alt="mask"></kbd>
 </p>
 </br>
 
@@ -184,7 +184,7 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/lpaube/NetPractice/blob/main/img/switch1.png?raw=true" height=150 alt="switch"></kbd>
+  <kbd><img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/switch1.png?raw=true" height=150 alt="switch"></kbd>
 </p>
 </br>
 
@@ -201,7 +201,7 @@ A switch connects multiple devices together in a single network. Unlike a router
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/lpaube/NetPractice/blob/main/img/route1.png?raw=true" height=200 alt="router"></kbd>
+  <kbd><img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/route1.png?raw=true" height=200 alt="router"></kbd>
 </p>
 </br>
 
@@ -215,7 +215,7 @@ Since the router separates different networks, the range of possible IP addresse
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/lpaube/NetPractice/blob/main/img/routing_table1.png?raw=true" height=150 alt="routing_table"></kbd>
+  <kbd><img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/routing_table1.png?raw=true" height=150 alt="routing_table"></kbd>
 </p>
 </br>
 
@@ -235,7 +235,7 @@ A routing table is a data table stored in a router or a network host that lists 
 <details>
   <summary>Level 1</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level1_paint.png?raw=true" alt="level1">  
+  <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img//level1_paint.png?raw=true" alt="level1">  
   <br>
   <br>
 
@@ -269,7 +269,7 @@ The solution will be anything in the range of **211.191.0.0 - 211.191.255.255**,
 <details>
   <summary>Level 2</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level2_paint.png?raw=true" alt="level2">
+  <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/level2_paint.png?raw=true" alt="level2">
   <br>
   <br>
 
