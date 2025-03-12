@@ -6,10 +6,10 @@
 
 This repo is forked from [https://github.com/lpaube/NetPractice](https://github.com/lpaube/NetPractice) by Louis-Philippe Aubé.  
 
-Updates include:
+Updates and corrections include:
 - Reserved IP addresses
 - Cheat Sheet
-- Exercise walktroughs lvl 8 — lvl 10
+- Exercise walkthroughs lvl 8 — lvl 10
 
 ## Table of Contents
 
@@ -684,3 +684,9 @@ To keep it simple, I've opted for `160.1.1.1` (R2) and `160.1.1.2` (H3) with a g
 </br>
 
 </details>
+
+## Acknowledgements
+
+This repository is based on [NetPractice](https://github.com/lpaube/NetPractice) by Louis-Philippe Aubé. 
+
+The project badge is from [this repository](https://github.com/ayogun/42-project-badges) by Ali Ogun.
