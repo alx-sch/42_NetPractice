@@ -637,7 +637,7 @@ This level is quite straightforward since the internet does not initially send i
 <details>
   <summary>Level 10</summary>
   <br>
-  <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/level10_paint.png?raw=true" alt="level10">
+  <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/lvl_10_new.png?raw=true" alt="level10">
   <br>
   <br>
 
@@ -648,7 +648,8 @@ At this level, there are 4 different networks:
 2. _Router R1_ to _Router R2_
 3. _Router R2_ to _Client H4_
 4. _Router R2_ to _Client H3_
-   <br>
+
+<br>
 
 **1.** The internet must be able to send its packets to all the hosts, so its destination must cover the range of networks of all the hosts.
 <br>
@@ -656,14 +657,14 @@ At this level, there are 4 different networks:
 Checking the greyed-out IP addresses, we see that they all start with `160.204.103.x`. To be more flexible, let's define the internet's destination as `160.0.0.0 - 160.255.255.255` (`160.0.0.0/8`).
 
   <br>
-  <br>
 
 **2.** When choosing the IP addresses, we must make sure of 2 things:
 <br>
 
 1. The IP address is covered by the _internet_ destination.
 2. The IP address range of the various networks does not overlap.
-   <br>
+
+<br>
 
 With the IP addresses already entered (greyed out), let's examine the ranges covered by the various networks:
 <br>
