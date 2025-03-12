@@ -186,29 +186,6 @@ Therefore, the mask in the example above of `255.255.255.128`, is equivalent to 
 
 ---
 
-### Cheat Sheet
-
-The cheat sheet introduced in this [YouTube video](https://www.youtube.com/watch?v=ljS07YTEJ2I) is a helpful tool to quickly figure out the group size as well as the CIDR/subnet mask notation of a subnet:
-
-| Group Size | Subnet Mask        | CIDR   |
-|------------|--------------------|--------|
-| 256        | 255.255.255.0      | /24    |
-| 128        | 255.255.255.128    | /25    |
-| 64         | 255.255.255.192    | /26    |
-| 32         | 255.255.255.224    | /27    |
-| 16         | 255.255.255.240    | /28    |
-| 8          | 255.255.255.248    | /29    |
-| 4          | 255.255.255.252    | /30    |
-| 2          | 255.255.255.254    | /31    |
-
-
-<div align="right">
-  <b><a href="#top">↥ back to top</a></b>
-</div>
-</br>
-
----
-
 ### Switch
 
 </br>
@@ -253,6 +230,27 @@ A routing table is a data table stored in a router or a network host that lists 
 - **Destination**: The destination specifies a network address on which a host is the end target of the packets. The route of `default` or `0.0.0.0/0`, is the route that takes effect when no other route is available for an IP destination address. The default route will use the next-hop address to send the packets on their way without giving a specific destination. The default route will match any network.
 
 - **Next hop**: The next hop refers to the next closest router a packet can go through. It is the IP address of the next router on the packet's way. Every single router maintains its routing table with a next hop address.
+
+<div align="right">
+  <b><a href="#top">↥ back to top</a></b>
+</div>
+</br>
+
+## Cheat Sheet
+
+The cheat sheet introduced in this [YouTube video](https://www.youtube.com/watch?v=ljS07YTEJ2I) is a helpful tool to quickly figure out the group size as well as the CIDR/subnet mask notation of a subnet:
+
+| Group Size | Subnet Mask        | CIDR   |
+|------------|--------------------|--------|
+| 256        | 255.255.255.0      | /24    |
+| 128        | 255.255.255.128    | /25    |
+| 64         | 255.255.255.192    | /26    |
+| 32         | 255.255.255.224    | /27    |
+| 16         | 255.255.255.240    | /28    |
+| 8          | 255.255.255.248    | /29    |
+| 4          | 255.255.255.252    | /30    |
+| 2          | 255.255.255.254    | /31    |
+
 
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
