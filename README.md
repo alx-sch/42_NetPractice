@@ -1,19 +1,14 @@
-**Want to see 42 Quebec in 3D?**  
-**:arrow_right: https://mini42qc.vercel.app/ :arrow_left:**
+# NetPractice
 
-# Guide to NetPractice
+<p align="center">
+    <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/netpractice_badge.png" alt="netpractice_badge.png" />
+</p>
 
-![netpractice logo](img/NetPractice.png)
+This repo is forked from [https://github.com/lpaube/NetPractice](https://github.com/lpaube/NetPractice) by Louis-Philippe Aubé.  
 
-<div id="top"></div>
-
-## Other Languages
-
-[Korean](README.ko.md)
-<br>
-[French](README.fr.md)
-<br>
-[Spanish](README.es.md)
+Updates include:
+- Reserved IP addresses
+- Exercise walktroughs
 
 ## Table of Contents
 
