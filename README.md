@@ -75,24 +75,26 @@ Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number. How
 </br>
 </br>
 
-#### Rerserved IP Addresses
+#### Reserved IP Addresses
 
-A **public IP address** is an address that can be accessed directly over the internet and is assigned to your network router by your Internet Service Provider (ISP). A public (or external) IP address allows your network to communicate with the internet.
+A **reserved IP address** is a host address set aside for specific purposes, such as private networking, loopback testing, or multicast communication. These IP addresses cannot be used for public internet traffic.
 
-A **reserved IP address** is set aside for specific purposes, such as private networking, loopback testing, or multicast communication. These IP addresses cannot be used for public internet traffic.
+A **public IP address** is a host address that can be accessed directly over the internet and is assigned to your network router by your Internet Service Provider (ISP). A public (or external) IP address allows your network to communicate with the internet.   
 
-When a network is connected to the internet, it cannot use an IP address from the reserved private IP ranges. The following ranges are reserved:
+When a network is connected to the internet, it cannot use a host address from the reserved private IP ranges. However, in a closed network (one that is not connected to the internet), private IP addresses work for internal communication, while other reserved addresses (such as loopback or multicast) function according to their specific roles and are not suitable as host addresses.
+
+The following ranges are reserved:
 
 | Range                           | Purpose                         | Description                                 |
 |----------------------------------|---------------------------------|---------------------------------------------|
-| `192.168.0.0 – 192.168.255.255` | Private IP address             | 65,536 IP addresses                         |
-| `172.16.0.0 – 172.31.255.255`   | Private IP address             | 1,048,576 IP addresses                      |
-| `10.0.0.0 – 10.255.255.255`     | Private IP address             | 16,777,216 IP addresses                     |
-| `127.0.0.0 – 127.255.255.255`   | Loopback     | Used for testing. Typically `127.0.0.1` for localhost         |
-| `169.254.0.0 – 169.254.255.255` | Link-local | Used for local communication within a network when a DHCP server is not available |
-| `224.0.0.0 – 239.255.255.255`   | Multicast  | Used for one-to-many communications, such as video streaming |
-| `240.0.0.0 – 255.255.255.254`   | Experimental & Future Use      | Reserved for future assignments or experimental purposes |
-| `255.255.255.255`               | Broadcast  | Used for sending messages to all devices on the network |
+| `192.168.0.0 – 192.168.255.255` | Private IP range             | 65,536 IP addresses.                         |
+| `172.16.0.0 – 172.31.255.255`   | Private IP range             | 1,048,576 IP addresses.                      |
+| `10.0.0.0 – 10.255.255.255`     | Private IP range             | 16,777,216 IP addresses.                     |
+| `127.0.0.0 – 127.255.255.255`   | Loopback     | Used for self-testing within a device. Typically `127.0.0.1` for localhost.         |
+| `169.254.0.0 – 169.254.255.255` | Link-local | Used for local communication when a device fails to get a DHCP address. |
+| `224.0.0.0 – 239.255.255.255`   | Multicast  | Used for broadcasting to multiple devices. |
+| `240.0.0.0 – 255.255.255.254`   | Experimental     | Not in use for standard networking. |
+| `255.255.255.255`               | Broadcast  | Used for broadcasting to all devices. |
 
 
 <div align="right">
