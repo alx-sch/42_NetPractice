@@ -1,5 +1,4 @@
 # NetPractice
-<div id="top"></div>
 <p align="center">
     <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/netpractice_badge.png" alt="netpractice_badge.png" />
 </p>
@@ -12,7 +11,7 @@ Updates and corrections include:
 - Exercise walkthroughs lvl 8 — lvl 10
 
 ## Table of Contents
-
+<div id="top"></div>
 - [Important concepts](#important-concepts)
   - [TCP](#tcp-transport-layer)
   - [IP address](#ip-address-network-layer)
