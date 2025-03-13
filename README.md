@@ -11,7 +11,8 @@ Updates and corrections include:
 - Exercise walkthroughs lvl 8 — lvl 10
 
 ## Table of Contents
-<div id="top"></div>
+<div id="top"></div>  
+  
 - [Important concepts](#important-concepts)
   - [TCP](#tcp-transport-layer)
   - [IP address](#ip-address-network-layer)
