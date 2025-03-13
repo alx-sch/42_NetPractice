@@ -1,5 +1,5 @@
 # NetPractice
-
+<div id="top"></div>
 <p align="center">
     <img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/netpractice_badge.png" alt="netpractice_badge.png" />
 </p>
@@ -244,17 +244,9 @@ A routing table is a data table stored in a router or a network host that lists 
 
 The cheat sheet introduced in this [YouTube video](https://www.youtube.com/watch?v=ljS07YTEJ2I) is a helpful tool to quickly figure out the group size as well as the CIDR/subnet mask notation of a subnet:
 
-| Group Size | Subnet Mask        | CIDR   |
-|------------|--------------------|--------|
-| 256        | 255.255.255.0      | /24    |
-| 128        | 255.255.255.128    | /25    |
-| 64         | 255.255.255.192    | /26    |
-| 32         | 255.255.255.224    | /27    |
-| 16         | 255.255.255.240    | /28    |
-| 8          | 255.255.255.248    | /29    |
-| 4          | 255.255.255.252    | /30    |
-| 2          | 255.255.255.254    | /31    |
-
+<p align="center">
+  <kbd><img src="https://github.com/alx-sch/42_NetPractice/blob/main/.assets/img/cheat-sheet.png?raw=true" height=250 alt="mask"></kbd>
+</p>
 
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
