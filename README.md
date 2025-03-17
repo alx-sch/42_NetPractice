@@ -8,7 +8,7 @@ This repo is forked from [https://github.com/lpaube/NetPractice](https://github.
 Updates and corrections include:
 - Reserved IP addresses
 - Cheat Sheet
-- Exercise walkthroughs lvl 8 — lvl 10
+- Exercise walkthroughs lvl 8 – lvl 10
 
 ## Table of Contents
 <div id="top"></div>  
